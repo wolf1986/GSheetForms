@@ -1,0 +1,9 @@
+.horizontal_holder2 {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+.horizontal_holder2 > * {
+    width: 100%;
+}

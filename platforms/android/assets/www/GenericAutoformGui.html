@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <title>Loading...</title>
+
+	<!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;"/>-->
+	
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="css/GenericAutoformGui.css" />
+
+
+    <!-- Javascript -->
+	<!-- PhoneGap -->	
+	<script type="text/javascript" src="cordova.js"></script>
+	
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>-->
+    <script src="js/Common/jquery.min.js"></script>
+    <script src="js/Common/jquery-ui.min.js"></script>
+    <script src="js/Common/jquery.linkify.min.js"></script>
+    <script src="js/GUI/kickstart.js"></script>
+    <script src="js/GUI/jquery.blockUI.js"></script>
+    <script src="js/GUI/GenericAutoformGui.js"></script>
+
+</head>
+<body>
+<div class = 'grid' dir="rtl">
+    <div class = 'tab-content' id="div_main_contents">
+        <H5 id="lbl_title" class="center">Loading...</H5>
+
+        <form class="vertical"  id="frm_main">
+        </form>
+
+        <div class="center" dir="ltr">
+            <button type="button" id="btnSubmit" onclick="onSubmit()">
+                <strong>Submit !</strong>
+            </button>&nbsp;
+            <button type="button" id="btnClear" onclick="loadDefaultValues()">
+                Clear
+            </button>
+        </div>
+
+        <div id="divMessageNotice" dir="ltr">
+            <i></i>
+            <div id="divMessage">Loading ...</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

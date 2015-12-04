@@ -1,0 +1,8 @@
+{
+  "forms": {
+    "Expenses": "url_to_expenses",
+    "Expenses2": "url_to_expenses",
+    "Expenses3": "url_to_expenses",
+    "Tracking": "url_to_tracking"
+  }
+}
